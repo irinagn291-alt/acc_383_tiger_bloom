@@ -1,0 +1,5 @@
+The app opens directly to Explore. Open the featured tiger or select a page from the grid. Fill a region, try the brush or eraser, and use undo and redo. Return to My Art to confirm that the edited page is saved. Use the heart to test favourites in Explore. My Art shows bundled pages with colouring edits and imported photo pages.
+
+In Photo Lab, choose an existing image with the system photo picker or take a picture. The app converts the image on the device and opens the resulting mosaic in the studio. Selecting the camera requests camera access when available. A simulator without a camera offers the library instead and needs an image already in its library. To delete an imported page, press and hold its card and confirm deletion.
+
+In the studio export menu, choose Files to export a 1800 × 1800 PNG with the system file exporter, or choose Photos to trigger the add-only Photos permission. Edits, imported pages and preferences are stored locally. Photo processing uses no network upload or third-party packages. The interface is in English.

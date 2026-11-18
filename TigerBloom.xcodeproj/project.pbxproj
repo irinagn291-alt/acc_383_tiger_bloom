@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	classes = {
+	};
+	objectVersion = 56;
+	archiveVersion = 1;
+	objects = {
+		ACC90AE77D0CC7AA5409088A = {
+			buildActionMask = 2147483647;
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAAAAA0E40FCC9CCC52C926 = {
+			buildConfigurationList = B6FA667C61AA8BA0E539EF3D;
+			productReference = 165AD42FDB54175B29ECDDB0;
+			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = TigerBloomUITests;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				D4057C912A826DC411ACA58B,
+				DD933DA27CDBD6497A154F4C,
+				131CBD0CAC0A7CBDFD3EEFA5,
+			);
+			dependencies = (
+				FF275C20D5634C10A0F47873,
+			);
+			name = TigerBloomUITests;
+			buildRules = (
+			);
+		};
+		C61419943749C36A58B6E1E2 = {
+			buildActionMask = 2147483647;
+			isa = PBXSourcesBuildPhase;
+			files = (
+				BF0253C0B06944FF60991C4A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165AD42FDB54175B29ECDDB0 = {
+			path = TigerBloomUITests.xctest;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EB5F4E7C091DD1DD05D466F9 = {
+			path = Assets.xcassets;
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			sourceTree = "<group>";
+		};
+		F78BFEAACCEB34DBB31C3675 = {
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD1C8C63D449E1583BBFF9,
+				98F1BF0781566DB4B8F15CEB,
+			);
+		};
+		FF275C20D5634C10A0F47873 = {
+			isa = PBXTargetDependency;
+			target = 9521131F0E2B296284902DC2;
+			targetProxy = B0EA56DA2A73AE8AA3489343;
+		};
+		06F80CE88713EB06FDFCD043 = {
+			buildConfigurationList = 2163C74ECFF7E877C01F0F5B;
+			targets = (
+				9521131F0E2B296284902DC2,
+				CCAAAAA0E40FCC9CCC52C926,
+			);
+			developmentRegion = en;
+			knownRegions = (
+				en,
+				Base,
+			);
+			isa = PBXProject;
+			compatibilityVersion = "Xcode 14.0";
+			productRefGroup = F36A819050A2B443EF208ABE;
+			projectDirPath = "";
+			attributes = {
+				LastUpgradeCheck = 1600;
+				BuildIndependentTargetsInParallel = 1;
+				TargetAttributes = {
+					CCAAAAA0E40FCC9CCC52C926 = {
+						TestTargetID = 9521131F0E2B296284902DC2;
+					};
+				};
+			};
+			hasScannedForEncodings = 0;
+			projectRoot = "";
+			mainGroup = 3B8094407D88C8EE91B21F83;
+		};
+		3B8094407D88C8EE91B21F83 = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				8A9886F2A9F8844EDED61D69,
+				EB5F4E7C091DD1DD05D466F9,
+				F36A819050A2B443EF208ABE,
+			);
+		};
+		2EFB3AEB43A319EEC913B003 = {
+			path = TigerBloom.app;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = wrapper.application;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CD2945145322F7F5019AD351 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) BLOOM_UI_TESTS";
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.bloom.uitests;
+				TEST_TARGET_NAME = TigerBloom;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F36A819050A2B443EF208ABE = {
+			isa = PBXGroup;
+			name = Products;
+			children = (
+				2EFB3AEB43A319EEC913B003,
+				165AD42FDB54175B29ECDDB0,
+			);
+			sourceTree = "<group>";
+		};
+		9521131F0E2B296284902DC2 = {
+			buildConfigurationList = F78BFEAACCEB34DBB31C3675;
+			productReference = 2EFB3AEB43A319EEC913B003;
+			productType = "com.apple.product-type.application";
+			productName = TigerBloom;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				C61419943749C36A58B6E1E2,
+				ACC90AE77D0CC7AA5409088A,
+				B8A27229DA500E12B197E32F,
+			);
+			dependencies = (
+			);
+			name = TigerBloom;
+			buildRules = (
+			);
+		};
+		B6FA667C61AA8BA0E539EF3D = {
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2945145322F7F5019AD351,
+				4F390E0AD932AF7A6351C8D4,
+			);
+		};
+		98F1BF0781566DB4B8F15CEB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.bloom;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save your finished coloring page to Photos.";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Bloom";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_CFBundleAllowMixedLocalizations = NO;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photograph an animal or another subject to make a coloring page.";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Release;
+		};
+		D4057C912A826DC411ACA58B = {
+			buildActionMask = 2147483647;
+			isa = PBXSourcesBuildPhase;
+			files = (
+				30A7B770C682AE61F9C32732,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72451325FC4375744995FA0 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				ENABLE_TESTABILITY = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A9886F2A9F8844EDED61D69 = {
+			path = TigerBloom.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		DD933DA27CDBD6497A154F4C = {
+			buildActionMask = 2147483647;
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EA56DA2A73AE8AA3489343 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F80CE88713EB06FDFCD043;
+			remoteGlobalIDString = 9521131F0E2B296284902DC2;
+			remoteInfo = TigerBloom;
+			proxyType = 1;
+		};
+		BF0253C0B06944FF60991C4A = {
+			fileRef = 8A9886F2A9F8844EDED61D69;
+			isa = PBXBuildFile;
+		};
+		0152B6D4C9ECC8C493DEF35C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				ENABLE_TESTABILITY = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53CD1C8C63D449E1583BBFF9 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				MARKETING_VERSION = 1.0;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.bloom;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save your finished coloring page to Photos.";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tiger Bloom";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				SUPPORTS_MACCATALYST = NO;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_CFBundleAllowMixedLocalizations = NO;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photograph an animal or another subject to make a coloring page.";
+				GENERATE_INFOPLIST_FILE = YES;
+			};
+			name = Debug;
+		};
+		2163C74ECFF7E877C01F0F5B = {
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0152B6D4C9ECC8C493DEF35C,
+				D72451325FC4375744995FA0,
+			);
+		};
+		DD9BDADFD743FDF71EC559AD = {
+			fileRef = EB5F4E7C091DD1DD05D466F9;
+			isa = PBXBuildFile;
+		};
+		B8A27229DA500E12B197E32F = {
+			buildActionMask = 2147483647;
+			isa = PBXResourcesBuildPhase;
+			files = (
+				DD9BDADFD743FDF71EC559AD,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A7B770C682AE61F9C32732 = {
+			fileRef = 8A9886F2A9F8844EDED61D69;
+			isa = PBXBuildFile;
+		};
+		131CBD0CAC0A7CBDFD3EEFA5 = {
+			buildActionMask = 2147483647;
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F390E0AD932AF7A6351C8D4 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) BLOOM_UI_TESTS";
+				MARKETING_VERSION = 1.0;
+				SUPPORTS_MACCATALYST = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = studio.tiger.bloom.uitests;
+				TEST_TARGET_NAME = TigerBloom;
+				CURRENT_PROJECT_VERSION = 1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+	};
+	rootObject = 06F80CE88713EB06FDFCD043;
+}
